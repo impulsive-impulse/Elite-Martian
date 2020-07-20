@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<h2 style="margin-bottom: 25em; margin-right:  3em; text-align: justify; border-radius: 10px; border: 1px solid; padding-left: 10px; padding-right: 10px; padding-bottom: 5px;padding-top: 5px; background: #7ef23f; " >Unbeatable AI</h2>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+	
+		
+	
+	 <div class="container">
+    <div class = "selectSym">
+    <p>Choose your weapon:</p>
+      <button onClick="selectSym('X')">X</button>
+      <button onClick="selectSym('O')">O</button>
+    </div>
+</div>
+
+    
+   <div class="container">
+	   <div class="center" >  
+	    	<div class="replay">
+
+				<a class="btn" href="" onClick="startGame() " title="">Wanna try again?</a><span class="color color--blue" data-value="1"></span><span class="color color--orange" data-value="1"></span><span class="color color--green" data-value="1"></span><span class="color color--white" padding=10px; data-value="1"></span>
+				<a class="btn" href="/improvements/vsai/maintictactoe.html"  title="">Too Difficult?</a><span class="color color--blue" data-value="1"></span><span class="color color--orange" data-value="1"></span><span class="color color--green" data-value="1"></span><span class="color color--white" padding=10px; data-value="1"></span>
+				
+			</div>
+		</div>
+	</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

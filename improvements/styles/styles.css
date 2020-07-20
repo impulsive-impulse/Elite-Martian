@@ -1,0 +1,89 @@
+body {
+    background: url("../res/background4.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+nav {
+    background-color: #999698;
+    height: 70px;
+}
+
+footer {
+    background-color: #505050;
+    padding-top: 30px;
+    text-decoration: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footerH {
+    font-weight: bold;
+}
+
+address {
+    text-decoration: lightcyan;
+}
+
+.carousel {
+    background: black;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    padding: 10px 10px;
+    min-height: 300px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+audio {
+    width: 100%;
+}
+
+#music {
+    height: 100px;
+    margin: 30px;
+    padding: auto;
+}
+
+#ttt {
+    background-color: #46452c;
+    padding: 20px 20px;
+    border-radius: 1ch;
+}
+
+#tttcard1 {
+    background-color: #b8b6a8;
+    padding: 20px;
+}
+
+#tttcard2 {
+    background-color: #b8b6a8;
+    padding: 20px;
+}
+
+#tttHeader {
+    background-color: #afafaf;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1ch;
+    text-decoration: #26251a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tttcardbody {
+    background-color: #88edff;
+}

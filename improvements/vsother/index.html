@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe(Multiplayer)</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <audio id="audi" control loop >
+  <source src="sound.mp3" type="audio/mpeg">
+
+</audio>
+
+<a onclick="playAudio()"><i class="fa fa-music" style="color:yellow; cursor:pointer;"></i></a>
+&nbsp &nbsp
+<a onclick="pauseAudio()"><i class="fa fa-pause-circle" style="color:yellow; cursor:pointer;"></i></a>
+
+<div class="container">
+  <h2 align="center" onClick="window.location.href=window.location.href">Tic-<span style="color:yellow;">Tac</span>-Toe</h2>
+  <div><strong>1st Player weapon <i class='fa fa-times' aria-hidden='true'  style="color:red;"></i> &nbsp &nbsp 2nd player weapon  </strong>
+  <i class='fa fa-circle-o' aria-hidden='true' style="color:red;"></i>
+</div><br>
+  <div class="display"><i class='fa fa-times' aria-hidden='true'></i> <strong>TURN</strong></div><br>
+  <div class="board">
+    <div class="button">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b0">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>          
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b1">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b2">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b3">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" Id="b4">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b5">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b6">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b7">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+    <div class="button" id="b8">
+      <div class="flip-container" >
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>					
+        </div>
+      </div>
+    </div>
+
+    <div id="cross"><div class="button">0</div><div class="result"><i class='fa fa-times' aria-hidden='true'></i></div></div>
+    <div id="nought"><div class="button">0</div><div class="result"><i class='fa fa-circle-o' aria-hidden='true'></i></div></div>
+    </div>
+ </div>
+
+    <div id="footer">Site developed by <a href="#about us" target="_blank">Team name</a> with <i class="fa fa-lg fa-heart"></i>
+			</div>
+<script>
+var x = document.getElementById("audi"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
