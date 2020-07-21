@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Mars Colonization</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark static-top mb-5 shadow " id="navbar">
+        <div class="container">
+            <img alt="Brand" src="res/brand-icon.png">
+            <a class="navbar-brand d-none d-sm-block" href="#">Martian's Mars</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="everything">
+        <div class="card border-0 shadow my-5">
+            <div class="card-body p-5">
+
+                <header class="jumbotron">
+                    <div class="container">
+                        <div class="row row-header">
+                            <div class="col-12 col-sm-9">
+                                <h1>Microsoft's Mars Colonization Program</h1>
+                                <p><strong>About the Program:</strong><br>Learn the art of Artificial Intelligence Programming by hopping on an academic adventure with Microsoft to establish a permanent human settlement on Mars.</p>
+                            </div>
+                            <div class="col-12 col-sm align-self-center">
+                                <img src="res/ms.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="container">
+                    <div class="row row-content">
+                        <div class="col">
+                            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <img class="d-block img-fluid" src="res/entertainCrew.png" alt="entertainCrew">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h2>Project: <strong>ENTERTAIN THE CREW</strong></h2>
+                                            Engage your Crew by Using Minimax algorithm to build an unbeatable <br>Tic Tac Toe game powered by AI.
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="res/brand-icon.png" alt="Martians">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h2>About Team Elite Martians:</h2>
+                                            Team Elite Martian consists of four members from Army Institute of Technology. <br>The proud developers are <strong>Aman Singh, Akash Bhati ,Sumit Kumar and Supriya Negi</strong> from IT.
+                                        </div>
+                                    </div>
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                                    </ol>
+                                </div>
+                                <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                                <button class="btn btn-danger btn-sm" id="carouselButton">
+                                    <span id="carousel-button-icon" class="fa fa-pause"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="music">
+                    <div class="row row-header">
+                        <div class="col-12 col-sm-2">
+                            <h3><span id="carousel-button-icon" class="fa fa-music"></span> Music? </h3>
+                        </div>
+                        <div class="col-12 col-sm-6 align-self-center">
+                            <audio src="res/music.mp3" controls loop autoplay></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="" id="tttHeader">
+                    <header class="header ">
+                        <div class="text-center">
+                            <h1>Let's <strong>TIC TAC TOE</strong>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="container" id="ttt">
+                    <div class="row">
+                        <div class="col col-sm-4 offset-sm-1" id="tttcard1">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    Single Player
+                                </div>
+                                <div class="card-body" id="tttcardbody">
+                                    <h5 class="card-title">Invincible AI welcomes you</h5>
+                                    <p class="card-text">Please don't be dissapointed after the game.</p>
+                                    <a href="/improvements/vsai/maintictactoe.html" class="btn btn-dark">vs AI </a>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    Hopeless
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-4 offset-sm-2" id="tttcard2">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    Multi-Player
+                                </div>
+                                <div class="card-body" id="tttcardbody">
+                                    <h5 class="card-title">Play with Collegue</h5>
+                                    <p class="card-text">This is your only chance because you definitely can't beat our AI.</p>
+                                    <a href="/improvements/vsother/index.html" class="btn btn-dark">vs HUMAN</a>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    Best of Luck
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5 id="footerH">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5" id="addressWindowFooter">
+                    <h5 id="footerH">Our Address</h5>
+                    <address>
+                      Army Institute of Technology<br>
+                      Dighi Hills, Alandi Road<br>
+                      Pune - 411015<br>
+                      <i class="fa fa-phone fa-lg"></i>: +91 7618966019<br>
+                      <i class="fa fa-fax fa-lg"></i>: +91 7618966019<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:amansingh_18376@aitpune.edu.in">martians@aitpune.edu.in</a>
+
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon" href="mailto: amansingh_18376@aitpune.edu.in"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2020 Team Martians</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $("#carouselButton").click(function() {
+            if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                $("#mycarousel").carousel('pause');
+                $("#carouselButton").children("span").removeClass('fa-pause');
+                $("#carouselButton").children("span").addClass('fa-play');
+            } else if ($("#carouselButton").children("span").hasClass('fa-play')) {
+                $("#mycarousel").carousel('cycle');
+                $("#carouselButton").children("span").removeClass('fa-play');
+                $("#carouselButton").children("span").addClass('fa-pause');
+            }
+        });
+    </script>
+</body>
+
+</html>
