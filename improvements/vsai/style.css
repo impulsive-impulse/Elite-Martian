@@ -1,3 +1,12 @@
+var x = document.getElementById("audi"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
 td {
   border:  2px solid #333;
   height:  140px;
